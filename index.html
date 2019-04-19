@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<!-- This software is based on Converse.js and libsignal-protocol.
+Find the source code here: https://github.com/ThomasLeister/webchat.trashserver.net -->
+
+<html>
+    <head>
+        <title>trashserver.net XMPP Webchat</title>
+
+        <link rel="stylesheet" type="text/css" media="screen" href="conversejs/css/converse.css">
+        <link rel="stylesheet" tyoe="text/css" media="screen" href="style.css">
+
+        <script src="conversejs/converse.js" charset="utf-8"></script>
+        <script src="libsignal-protocol/libsignal-protocol.js"></script>
+
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+        <noscript>This application requires Javascript to work.</noscript>
+    </body>
+
+
+    <script>
+        converse.initialize({
+            bosh_service_url: 'https://webchat.trashserver.net/http-bind',
+            view_mode: 'fullscreen',
+            i18n: 'en'
+        });
+    </script>
+
+</html>
