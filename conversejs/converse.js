@@ -79967,7 +79967,7 @@ __p += '<!-- src/templates/register_link.html -->\n<fieldset class="switch-form"
  if (!o._converse.auto_login && o._converse.CONNECTION_STATUS[o.connection_status] !== 'CONNECTING') { ;
 __p += '\n        <p>' +
 __e( o.__("Don't have a chat account?") ) +
-'</p>\n        <p><a class="register-account toggle-register-login" href="https://trashserver.net/en/register/">' +
+'</p>\n        <p><a class="register-account toggle-register-login" href="#converse/register">' +
 __e(o.__("Create an account on trashserver.net")) +
 '</a></p>\n    ';
  } ;
